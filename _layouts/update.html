@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<article class="card">
+  <div class="meta">
+    <div class="badge">Update</div>
+    {% if page.as_of %}<div class="asof">As of {{ page.as_of }}</div>{% endif %}
+  </div>
+  {{ content }}
+</article>
