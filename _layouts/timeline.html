@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<article class="card">
+  <div class="meta">
+    <div class="badge">Timeline</div>
+    {% if page.date %}<div class="asof">{{ page.date | date: "%B %-d, %Y" }}</div>{% endif %}
+  </div>
+  {{ content }}
+</article>
