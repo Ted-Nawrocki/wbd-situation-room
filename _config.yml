@@ -1,0 +1,30 @@
+title: "WBD Situation Room"
+description: "A neutral, source-driven factbook tracking the Warner Bros. Discovery hostile takeover situation."
+url: "https://<your-username>.github.io"
+baseurl: "/wbd-situation-room"
+
+markdown: kramdown
+
+collections:
+  timeline:
+    output: true
+    permalink: /timeline/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "update"
+  - scope:
+      path: ""
+      type: "timeline"
+    values:
+      layout: "timeline"
+  - scope:
+      path: "_pages"
+    values:
+      layout: "page"
+
+include:
+  - _pages
