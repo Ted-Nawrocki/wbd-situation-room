@@ -73,7 +73,7 @@ A separation is not an idea. It is a legal and mechanical outcome. It needs cove
 
 ---
 
-## Episode 4: The BCG split, explicitly labeled
+## Episode 4: The BCG split
 
 ### Just the facts
 
