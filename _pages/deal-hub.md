@@ -57,9 +57,6 @@ Cash plus Netflix equity
 
 ---
 
-## Opening credits
-
-
 ---
 
 ## Opening credits
