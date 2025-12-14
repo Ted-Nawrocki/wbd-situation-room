@@ -226,3 +226,4 @@ And yes, in a Hollywood story, the procedural faceplant is always a possibility.
 - Any amendments to tender offer terms or timelines
 - Board responses and shareholder communications
 - Any additional disclosures that sharpen the boundary between Global Networks and Streaming & Studios
+<script src="{{ '/assets/js/quotes.js' | relative_url }}"></script>
