@@ -1,6 +1,6 @@
 ---
 title: "Why This Matters for Corporate Actions Professionals"
-permalink: /why-this-matters/
+permalink: /why-it-matters/
 layout: page
 ---
 
