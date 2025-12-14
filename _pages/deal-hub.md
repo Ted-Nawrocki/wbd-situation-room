@@ -153,7 +153,7 @@ This is the season that feels slow, but it’s where the plot locks in. When a c
 ## Episode 3: June 2025 — the refinancing that paved the runway
 
 ### Just the facts
-- In June 2025, WBD announced plans to separate into two publicly traded companies: **Streaming & Studios** and **Global Networks**. :contentReference[oaicite:6]{index=6}  
+- In June 2025, WBD announced plans to separate into two publicly traded companies: **Streaming & Studios** and **Global Networks**.
 - In connection with that plan, WBD pursued a broad debt refinancing / liability management effort (including tender offers and consents) supported by committed bridge financing, as disclosed in public filings.
 
 ### Ted’s Takes
@@ -181,7 +181,7 @@ Netflix and Paramount didn’t invent the runway. They showed up once the lights
 
 ### Just the facts
 - Paramount launched an **all-cash tender offer** to acquire WBD for **$30.00/share**. :contentReference[oaicite:8]{index=8}  
-- Netflix announced a definitive transaction framework to acquire Warner Bros (Streaming & Studios) **following the separation**, using a **cash + stock** structure widely reported at **$27.75/share** (split: **$23.25 cash + ~$4.50 stock**). :contentReference[oaicite:9]{index=9}  
+- Netflix announced a definitive transaction framework to acquire Warner Bros (Streaming & Studios) **following the separation**, using a **cash + stock** structure widely reported at **$27.75/share** (split: **$23.25 cash + ~$4.50 stock**).
 
 ### Ted’s Takes
 Now the story switches genres from “restructuring” to “contested process.”
