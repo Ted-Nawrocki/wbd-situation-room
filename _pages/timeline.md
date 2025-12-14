@@ -35,11 +35,19 @@ Each event is anchored to a continuous timeline and presented with
         {% endif %}
 
         {% if e.context %}
-        <div class="timeline-section commentary">
-          <div class="timeline-label">Ted’s Takes</div>
-          <p>{{ e.context | markdownify }}</p>
-        </div>
-        {% endif %}
+<div class="timeline-section commentary desktop-only">
+  <div class="timeline-label">Ted’s Takes</div>
+  <p>{{ e.context | markdownify }}</p>
+</div>
+
+<details class="timeline-section commentary mobile-only">
+  <summary>Ted’s Takes</summary>
+  <div class="timeline-mobile-content">
+    <p>{{ e.context | markdownify }}</p>
+  </div>
+</details>
+{% endif %}
+
 
         {% if e.sources %}
         <details class="timeline-sources">
