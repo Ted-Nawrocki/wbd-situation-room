@@ -1,3 +1,10 @@
+---
+title: "How to Think About This Deal"
+permalink: /how-to-think/
+layout: page
+---
+
+
 ## How to think about this deal
 
 This situation rewards a clear mental framework. Without one, it’s easy to fixate on headlines and miss the forces that will actually determine how, and whether, this story concludes.
