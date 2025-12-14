@@ -2,6 +2,16 @@
 title: "Deal Hub"
 permalink: /deal-hub/
 ---
+<div class="callout" id="wbd-quote">
+  <div class="callout-title">WBD market price</div>
+  <p>
+    <strong id="wbd-price">Loading…</strong>
+    <span id="wbd-change" style="margin-left:10px;"></span><br/>
+    <span style="color: var(--muted); font-size: 13px;">
+      Source: Stooq (delayed). Updated <span id="wbd-updated">—</span>.
+    </span>
+  </p>
+</div>
 
 **As of December 13, 2025**
 
