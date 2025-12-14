@@ -5,20 +5,60 @@ permalink: /deal-hub/
 
 **As of December 13, 2025**
 
-## Offer terms at a glance
+## Current offers at a glance
 
-The plot is simple. The mechanics are not.
+Two bidders. Two very different endings.
 
-| Bidder | Scope | Consideration | Headline value (per WBD share) | Structure notes (the part practitioners care about) |
-|---|---|---:|---:|---|
-| **Paramount** | **Whole company** (all WBD) | **All-cash tender offer** | **$30.00** | Direct tender offer to shareholders for WBD shares; positioned as an all-cash path to acquire WBD. |
-| **Netflix** | **Streaming & Studios** (not the full enterprise) | **Cash + Netflix stock** | **$27.75** (reported split: **$23.25 cash + ~$4.50 NFLX stock**) | Transaction is explicitly described as occurring **following WBD’s separation** into Streaming & Studios and Global Networks; structure relies on completion of that separation/spin-off sequence. |
+### Paramount — All-cash, whole company
 
-### Sources for the table (primary + reputable)
-- Paramount press release: **“All-Cash Tender Offer… for $30 per share”** :contentReference[oaicite:2]{index=2}  
-- Reuters summary of Netflix consideration (**$23.25 cash + ~$4.50 stock = $27.75/share**) :contentReference[oaicite:3]{index=3}  
-- Netflix announcement: “Acquire Warner Bros… **following the separation**” :contentReference[oaicite:4]{index=4}  
-- WBD 8-K on the Netflix merger agreement and transaction framework :contentReference[oaicite:5]{index=5}  
+**Scope**  
+Entire Warner Bros. Discovery enterprise
+
+**Consideration**  
+All-cash tender offer
+
+**Headline value**  
+**$30.00 per WBD share**
+
+**Structural notes**  
+- Direct tender offer to WBD shareholders  
+- No separation required  
+- Consideration is delivered entirely in cash  
+- Simpler mechanics, but absorbs both legacy networks and streaming assets  
+
+**Primary sources**  
+- Paramount Global press release (December 2025)  
+- Paramount Global SEC filings (Form 8-K)
+
+---
+
+### Netflix — Cash + stock, streaming business only
+
+**Scope**  
+Warner Bros. Discovery **Streaming & Studios** business
+
+**Consideration**  
+Cash plus Netflix equity
+
+**Headline value (reported)**  
+**$27.75 per WBD share**  
+(Reported split: **$23.25 cash + approximately $4.50 in Netflix stock**)
+
+**Structural notes**  
+- Transaction explicitly contingent on WBD completing its separation  
+- Netflix does **not** acquire Global Networks  
+- Multi-step execution: separation first, acquisition second  
+- Structure relies on the June 2025 refinancing and separation framework  
+
+**Primary sources**  
+- Netflix investor announcement (December 2025)  
+- Warner Bros. Discovery Form 8-K  
+- Reuters reporting on transaction consideration
+
+---
+
+## Opening credits
+
 
 ---
 
