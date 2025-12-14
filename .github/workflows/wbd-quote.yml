@@ -1,0 +1,53 @@
+name: Update WBD quote
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * 1-5"  # every 30 min, Mon–Fri (UTC)
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch quote from Stooq and write JSON
+        run: |
+          mkdir -p assets/data
+          curl -s "https://stooq.com/q/l/?s=wbd.us&f=sd2t2ohlcv&h&e=csv" > /tmp/wbd.csv
+          python3 - <<'PY'
+          import csv, json, datetime
+          from pathlib import Path
+
+          path = Path("/tmp/wbd.csv")
+          rows = list(csv.reader(path.read_text().strip().splitlines()))
+          if len(rows) < 2:
+              raise SystemExit("No data returned")
+
+          # Symbol,Date,Time,Open,High,Low,Close,Volume
+          r = rows[1]
+          data = {
+              "symbol": r[0],
+              "date": r[1],
+              "time": r[2],
+              "open": r[3],
+              "high": r[4],
+              "low": r[5],
+              "close": r[6],
+              "volume": r[7],
+              "asof_utc": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+              "source": "stooq"
+          }
+
+          out = Path("assets/data/wbd.json")
+          out.write_text(json.dumps(data, indent=2) + "\n")
+          print("Wrote", out)
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add assets/data/wbd.json
+          git diff --cached --quiet || (git commit -m "Update WBD quote" && git push)
