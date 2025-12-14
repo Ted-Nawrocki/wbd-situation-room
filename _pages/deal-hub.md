@@ -154,7 +154,7 @@ This is the season that feels slow, but it’s where the plot locks in. When a c
 
 ### Just the facts
 - In June 2025, WBD announced plans to separate into two publicly traded companies: **Streaming & Studios** and **Global Networks**. :contentReference[oaicite:6]{index=6}  
-- In connection with that plan, WBD pursued a broad debt refinancing / liability management effort (including tender offers and consents) supported by committed bridge financing, as disclosed in public filings. :contentReference[oaicite:7]{index=7}  
+- In connection with that plan, WBD pursued a broad debt refinancing / liability management effort (including tender offers and consents) supported by committed bridge financing, as disclosed in public filings.
 
 ### Ted’s Takes
 If you want the hinge moment for this entire saga, it isn’t the hostile bid headline. It’s June 2025.
