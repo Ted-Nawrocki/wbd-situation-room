@@ -1,3 +1,4 @@
+console.log("quotes.js loaded");
 (async function () {
   const elPrice = document.getElementById("wbd-price");
   const elChange = document.getElementById("wbd-change");
