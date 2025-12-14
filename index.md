@@ -5,7 +5,7 @@ permalink: /deal-hub/
 
 **As of December 13, 2025**
 
-## Opening credits
+## Opening Credits
 
 Welcome to **WBD Situation Room**.  
 This is a corporate actions drama told in episodes, directed for practitioners who know the truth: the real suspense is never in the press release. It is in the mechanics, the sequencing, the funding, the consents, and the deadline that magically becomes “business day 10” at the worst possible time.
