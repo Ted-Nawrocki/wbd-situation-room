@@ -118,7 +118,7 @@ Federal agency sharing antitrust oversight responsibilities, relevant depending 
 
 *(Regulatory bodies are listed institutionally rather than by office-holder, as leadership can change over the life of a transaction.)*
 
-
+---
 
 This is one of those rare corporate actions stories that plays like prestige TV: iconic studios, streaming giants, a leveraged capital structure, and now a contested process where deadlines and documentation are part of the weaponry.
 
