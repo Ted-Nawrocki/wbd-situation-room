@@ -6,92 +6,96 @@ permalink: /
 
 ## Welcome to the Situation Room
 
-Every major corporate action tells a story.
+Some corporate actions are routine.  
+Some are complicated.  
+And once in a while, one comes along that feels like it was pitched straight out of a Hollywood writers’ room.
 
-Some are forgettable. Others are procedural. And then there are the rare ones where strategy, capital structure, timing, and human decision-making collide in a way that feels almost scripted.
+The unfolding situation around **Warner Bros. Discovery** is firmly in that last category.
 
-The evolving situation around **Warner Bros. Discovery** is firmly in that last category.
+We are watching, in real time, what may become one of the largest hostile takeover attempts in recent memory. The cast includes iconic studios, global streaming platforms, legacy media businesses, and balance sheets that refuse to stay in the background. The stakes are measured in billions. The mechanics are measured in deadlines, elections, consents, and filings.
 
-This site exists to follow that story as it unfolds, in real time, through the lens of someone who has spent a career in voluntary corporate actions and understands where the real tension lives. Not in the headlines, but in the mechanics.
+In other words, this is not just a deal. It’s a production.
 
 ---
 
-## What this is (and what it isn’t)
+## What this site is (and what it isn’t)
 
-This is not a rumor mill.  
-It is not an advocacy site.  
-And it is not a prediction engine.
+This site is not a rumor feed.  
+It is not a cheerleading exercise.  
+And it is not trying to predict the ending before the final scene is shot.
 
-**WBD Situation Room** is a curated narrative built on public filings, issuer communications, and reputable journalism, with two clearly separated layers:
+**WBD Situation Room** is a living narrative built from public filings, issuer communications, and reputable journalism, presented in two distinct layers:
 
-- **Just the facts**: what has been disclosed, filed, or announced.
-- **Ted’s Takes**: professional interpretation, framed by experience in how these situations are actually executed.
+- **Just the facts**: what has actually been disclosed, filed, or announced.
+- **Ted’s Takes**: informed interpretation from the perspective of someone who has spent years watching how these situations are executed when the cameras are off.
 
-The goal is not to guess the ending. The goal is to understand the plot.
+Think of it as the difference between the trailer and the production notes.
 
 ---
 
 ## Why this story matters
 
-At first glance, this looks like a media industry story. Streaming versus linear. Netflix versus legacy players. Content libraries and scale.
+On the surface, this is a media industry story. Streaming versus linear. Scale versus legacy. Content libraries, subscriber counts, and strategic ambition.
 
-But look closer and this becomes something much more familiar to corporate actions professionals:
+But to anyone who works in corporate actions, this story is instantly recognizable for a different reason.
 
-- A company born from a complex separation, carrying leverage from day one.
-- Years of operating under constraint, where optionality quietly narrows.
-- A carefully timed restructuring that rewrites what is mechanically possible.
-- Competing transaction paths that transform timelines, elections, and documentation into strategic weapons.
+It has all the familiar elements:
+- A company created through a complex separation, carrying leverage from day one.
+- Years of operating with limited room for error.
+- A carefully timed restructuring that quietly changes what is possible.
+- Competing transaction paths that turn calendars, eligibility rules, and tender mechanics into strategic tools.
 
-This is where strategy stops being theoretical and starts flowing through custody systems, election platforms, and deadline calendars.
+This is the point where strategy stops being theoretical and starts flowing through custody systems, election platforms, and deadline trackers.
 
-That is where the drama is.
+That’s where the real drama lives.
 
 ---
 
 ## The story so far
 
-The narrative begins in 2021 with AT&T’s decision to step away from media ownership and combine WarnerMedia with Discovery. It accelerates in 2022 as Warner Bros. Discovery enters the public markets carrying both scale and leverage.
+The opening act begins in 2021, when AT&T decides to exit the media business and combine WarnerMedia with Discovery. The deal closes in 2022, and Warner Bros. Discovery enters the public markets with enormous scale, famous brands, and a balance sheet that demands discipline.
 
-For several seasons, the plot is about discipline. Deleveraging. Cash flow. Quiet constraint.
+For a while, the plot is subdued. Cost controls. Cash flow. Deleveraging. The kind of steady pacing that doesn’t grab headlines but shapes everything that follows.
 
-Then, in June 2025, the script changes. A separation plan is announced. Liability management follows. The balance sheet is reshaped in a way that does more than tidy up maturities. It creates options.
+Then, in June 2025, the tone changes. A separation plan is announced. Debt is refinanced. Consents are sought. The capital structure is adjusted in ways that do more than tidy things up. They set the stage.
 
-By late 2025, those options attract attention. Netflix and Paramount emerge with competing visions for how this story could end, each implying a very different set of mechanics, risks, and operational realities.
+By late 2025, new characters step into the frame. **Netflix** and **Paramount** appear with competing visions for how this story could end. One path isolates the growth assets. Another absorbs the entire enterprise. Each implies very different mechanics, risks, and operational consequences.
 
-From here on, every filing matters.
+From here on out, every filing is a plot point.
 
 ---
 
-## How to use the Situation Room
+## How to navigate the Situation Room
 
-This site is structured like a briefing book, not a blog:
+This site is designed to be read like an executive briefing, not binge-scrolled like social media:
 
 - **Deal Hub**  
-  The full narrative, told in episodes, with facts and interpretation clearly separated.
+  The full narrative, told in episodes, explaining how we got here and why each move matters.
 
 - **Timeline**  
-  The plot beats, anchored to a visual spine, showing how each move sets up the next.
+  The plot beats, laid out visually, showing how one decision sets up the next.
 
 - **Updates**  
-  Material developments as they occur, without noise.
+  New developments as they occur, without speculation or noise.
 
 - **Filings & Sources**  
-  The document trail, for readers who want to go straight to the source.
+  The source material, for readers who want to go straight to the documents.
 
 - **Why This Matters for Corporate Actions**  
-  Because none of this is abstract once elections open and deadlines hit.
+  Because this is where theory meets execution, and where mistakes are expensive.
 
 ---
 
 ## A note from the director
 
-I built this site out of genuine intellectual curiosity.
+I built this site out of professional curiosity and a genuine appreciation for the craft.
 
-After two decades in operations roles across complex corporate actions, I’ve learned that the most interesting stories are rarely told from the inside out. Yet for those of us who live in the plumbing of markets, these moments are endlessly fascinating. They are part finance, part law, part systems engineering, and part human behavior under pressure.
+After two decades working in operations roles across complex voluntary corporate actions, I’ve learned that the most interesting deals are rarely understood from the outside in. They are equal parts finance, law, process, and human behavior under pressure.
 
-Everyone watches TV. Fewer people watch how these deals actually get done.
+Everyone watches movies and television.  
+Fewer people watch how deals involving those studios actually get done.
 
-This is for those who do.
+This situation happens to combine both worlds. And like any good production, it’s worth paying attention to how it’s made, not just how it ends.
 
 ---
 
