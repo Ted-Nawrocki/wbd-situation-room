@@ -5,7 +5,7 @@
   if (!elPrice || !elChange || !elUpdated) return;
 
   try {
-    const res = await fetch("{{ '/assets/data/wbd.json' | relative_url }}", { cache: "no-store" });
+    const res = await fetch("/wbd-situation-room/assets/data/wbd.json", { cache: "no-store" })
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const q = await res.json();
 
