@@ -60,7 +60,65 @@ Cash plus Netflix equity
 
 ## Opening credits
 
-Welcome to **WBD Situation Room**.
+## Cast of characters
+
+These transactions are executed by people, not abstractions. Understanding who is making decisions, and from what seat, matters as much as understanding the documents themselves.
+
+### Warner Bros. Discovery
+
+**David Zaslav**  
+President and Chief Executive Officer  
+The central figure in this story. Oversees the separation strategy, balance sheet decisions, and the board’s response to competing transaction paths.
+
+**Gunnar Wiedenfels**  
+Chief Financial Officer  
+Architect of the June 2025 liability management and separation framework. Owns the mechanics that made subsequent bids structurally possible.
+
+**Samuel A. Di Piazza, Jr.**  
+Chair of the Board of Directors  
+Leads the board overseeing strategic alternatives, governance, and fiduciary process during a contested situation.
+
+---
+
+### Netflix
+
+**Ted Sarandos**  
+Co-Chief Executive Officer  
+Creative and strategic leader at Netflix. Represents the content and studio-driven rationale behind Netflix’s interest in the Streaming & Studios business.
+
+**Greg Peters**  
+Co-Chief Executive Officer  
+Operational and product-focused leader. Central to Netflix’s execution posture and integration considerations.
+
+**Spencer Neumann**  
+Chief Financial Officer  
+Responsible for financing structure, capital allocation, and balance sheet implications of a cash-and-stock transaction.
+
+---
+
+### Paramount
+
+**David Ellison**  
+Chairman and Chief Executive Officer  
+Driving force behind Paramount’s all-cash, whole-company acquisition proposal. Brings a consolidator’s thesis to the table.
+
+**Andrew Warren**  
+Interim Chief Financial Officer  
+Responsible for financing readiness, liquidity planning, and execution certainty behind the tender offer.
+
+---
+
+### Regulators (institutional)
+
+**U.S. Department of Justice – Antitrust Division**  
+Federal antitrust authority with jurisdiction over major media and telecommunications consolidation.
+
+**U.S. Federal Trade Commission**  
+Federal agency sharing antitrust oversight responsibilities, relevant depending on transaction structure and asset scope.
+
+*(Regulatory bodies are listed institutionally rather than by office-holder, as leadership can change over the life of a transaction.)*
+
+
 
 This is one of those rare corporate actions stories that plays like prestige TV: iconic studios, streaming giants, a leveraged capital structure, and now a contested process where deadlines and documentation are part of the weaponry.
 
