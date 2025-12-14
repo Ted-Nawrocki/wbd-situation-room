@@ -5,48 +5,53 @@ permalink: /timeline/
 
 **As of December 13, 2025**
 
-<div class="tl">
+This timeline presents the Warner Bros. Discovery situation as a sequence of plot beats.
+Each event is anchored to a continuous timeline and presented with
+**Just the facts** followed by **Ted’s Takes**.
+
+<div class="timeline-container">
   {% assign events = site.timeline | sort: "date" %}
   {% for e in events %}
-    <section class="tl-item">
-      <div class="tl-rail" aria-hidden="true">
-        <div class="tl-dot"></div>
-        {% unless forloop.last %}<div class="tl-line"></div>{% endunless %}
+    <div class="timeline-row">
+      <div class="timeline-marker">
+        <div class="timeline-dot"></div>
+        {% unless forloop.last %}
+        <div class="timeline-line"></div>
+        {% endunless %}
       </div>
 
-      <div class="tl-card">
-        <div class="tl-meta">
-          <div class="tl-date">{{ e.date | date: "%B %-d, %Y" }}</div>
-          <div class="tl-badge">Timeline</div>
+      <div class="timeline-card">
+        <div class="timeline-header">
+          <div class="timeline-date">{{ e.date | date: "%B %-d, %Y" }}</div>
         </div>
 
-        <h2 class="tl-title">{{ e.title }}</h2>
+        <h2 class="timeline-title">{{ e.title }}</h2>
 
         {% if e.fact %}
-          <div class="tl-block">
-            <div class="tl-label">Verified fact</div>
-            <div class="tl-text">{{ e.fact | markdownify }}</div>
-          </div>
+        <div class="timeline-section">
+          <div class="timeline-label">Just the facts</div>
+          <p>{{ e.fact | markdownify }}</p>
+        </div>
         {% endif %}
 
         {% if e.context %}
-          <details class="tl-details">
-            <summary>Banker context</summary>
-            <div class="tl-text">{{ e.context | markdownify }}</div>
-          </details>
+        <div class="timeline-section commentary">
+          <div class="timeline-label">Ted’s Takes</div>
+          <p>{{ e.context | markdownify }}</p>
+        </div>
         {% endif %}
 
         {% if e.sources %}
-          <details class="tl-details">
-            <summary>Sources</summary>
-            <ul class="tl-sources">
-              {% for s in e.sources %}
-                <li class="tl-text">{{ s | markdownify }}</li>
-              {% endfor %}
-            </ul>
-          </details>
+        <details class="timeline-sources">
+          <summary>Sources</summary>
+          <ul>
+            {% for s in e.sources %}
+              <li>{{ s | markdownify }}</li>
+            {% endfor %}
+          </ul>
+        </details>
         {% endif %}
       </div>
-    </section>
+    </div>
   {% endfor %}
 </div>
