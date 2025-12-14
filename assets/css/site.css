@@ -511,3 +511,26 @@ blockquote{
   border-left-width: 3px;
   background: var(--bg-soft, var(--card));
 }
+/* ===== Callout boxes ===== */
+
+.callout{
+  border: 1px solid var(--line);
+  background: var(--card);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 18px 0;
+}
+
+.callout-title{
+  font-weight: 700;
+  margin: 0 0 6px 0;
+}
+
+.callout p{
+  margin: 0;
+}
+
+.callout a{
+  font-weight: 700;
+}
