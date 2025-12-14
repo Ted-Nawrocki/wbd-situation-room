@@ -1,30 +1,73 @@
+# =========================
+# WBD Situation Room (Jekyll)
+# =========================
+
 title: "WBD Situation Room"
-description: "A neutral, source-driven factbook tracking the Warner Bros. Discovery hostile takeover situation."
-url: "https://tednawrockinyc.github.io"
-baseurl: "/wbd-situation-room"
+description: "A corporate actions drama, directed for practitioners. Facts first. Ted’s Takes clearly labeled."
+timezone: "America/New_York"
 
+# IMPORTANT:
+# - url is your GitHub Pages domain (no repo path)
+# - baseurl is your repo name (starts with /)
+# Example:
+# url: "https://tednawrockinyc.github.io"
+# baseurl: "/wbd-situation-room"
+
+url: "https://YOUR_GITHUB_USERNAME.github.io"
+baseurl: "/YOUR_REPO_NAME"
+
+# Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 
+permalink: /:categories/:title/
+
+# Collections
 collections:
+  pages:
+    output: true
+    permalink: /:name/
   timeline:
     output: true
     permalink: /timeline/:name/
 
+# Tell Jekyll where your “pages” live
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: pages
     values:
-      layout: "update"
+      layout: page
   - scope:
       path: ""
-      type: "timeline"
+      type: posts
     values:
-      layout: "timeline"
+      layout: update
   - scope:
-      path: "_pages"
+      path: ""
+      type: timeline
     values:
-      layout: "page"
+      layout: timeline
 
+# Ensure these folders are processed
 include:
   - _pages
+  - _timeline
+
+# Exclusions (safe defaults)
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - package.json
+  - package-lock.json
+
+# GitHub Pages safe plugin
+plugins:
+  - jekyll-feed
