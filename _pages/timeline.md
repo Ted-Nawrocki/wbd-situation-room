@@ -5,30 +5,48 @@ permalink: /timeline/
 
 **As of December 13, 2025**
 
-This timeline presents the Warner Bros. Discovery situation as a chronological sequence of verified events.  
-Each entry is structured with a factual statement followed by clearly labeled banker context.
+<div class="tl">
+  {% assign events = site.timeline | sort: "date" %}
+  {% for e in events %}
+    <section class="tl-item">
+      <div class="tl-rail" aria-hidden="true">
+        <div class="tl-dot"></div>
+        {% unless forloop.last %}<div class="tl-line"></div>{% endunless %}
+      </div>
 
----
+      <div class="tl-card">
+        <div class="tl-meta">
+          <div class="tl-date">{{ e.date | date: "%B %-d, %Y" }}</div>
+          <div class="tl-badge">Timeline</div>
+        </div>
 
-{% assign events = site.timeline | sort: "date" %}
-{% for event in events %}
-### {{ event.date | date: "%B %-d, %Y" }}  
-**{{ event.title }}**
+        <h2 class="tl-title">{{ e.title }}</h2>
 
-**Verified fact**  
-{{ event.fact }}
+        {% if e.fact %}
+          <div class="tl-block">
+            <div class="tl-label">Verified fact</div>
+            <div class="tl-text">{{ e.fact | markdownify }}</div>
+          </div>
+        {% endif %}
 
-{% if event.context %}
-**Banker context**  
-{{ event.context }}
-{% endif %}
+        {% if e.context %}
+          <details class="tl-details">
+            <summary>Banker context</summary>
+            <div class="tl-text">{{ e.context | markdownify }}</div>
+          </details>
+        {% endif %}
 
-{% if event.sources %}
-**Sources**  
-{% for s in event.sources %}
-- {{ s }}
-{% endfor %}
-{% endif %}
-
----
-{% endfor %}
+        {% if e.sources %}
+          <details class="tl-details">
+            <summary>Sources</summary>
+            <ul class="tl-sources">
+              {% for s in e.sources %}
+                <li class="tl-text">{{ s | markdownify }}</li>
+              {% endfor %}
+            </ul>
+          </details>
+        {% endif %}
+      </div>
+    </section>
+  {% endfor %}
+</div>
