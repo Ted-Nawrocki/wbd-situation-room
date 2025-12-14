@@ -3,18 +3,12 @@
 # =========================
 
 title: "WBD Situation Room"
-description: "A corporate actions drama, directed for practitioners. Facts first. Ted’s Takes clearly labeled."
+description: "A corporate actions drama, directed by Ted Nawrocki. Facts first. Ted’s Takes clearly labeled."
 timezone: "America/New_York"
 
-# IMPORTANT:
-# - url is your GitHub Pages domain (no repo path)
-# - baseurl is your repo name (starts with /)
-# Example:
-# url: "https://tednawrockinyc.github.io"
-# baseurl: "/wbd-situation-room"
-
-url: "https://YOUR_GITHUB_USERNAME.github.io"
-baseurl: "/YOUR_REPO_NAME"
+# GitHub Pages URL configuration
+url: "https://ted-nawrocki.github.io"
+baseurl: "/wbd-situation-room"
 
 # Build settings
 markdown: kramdown
@@ -33,7 +27,7 @@ collections:
     output: true
     permalink: /timeline/:name/
 
-# Tell Jekyll where your “pages” live
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -51,12 +45,12 @@ defaults:
     values:
       layout: timeline
 
-# Ensure these folders are processed
+# Explicit includes
 include:
   - _pages
   - _timeline
 
-# Exclusions (safe defaults)
+# Exclusions
 exclude:
   - README.md
   - Gemfile
@@ -68,6 +62,6 @@ exclude:
   - package.json
   - package-lock.json
 
-# GitHub Pages safe plugin
+# GitHub Pages–safe plugins
 plugins:
   - jekyll-feed
