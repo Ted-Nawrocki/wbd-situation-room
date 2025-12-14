@@ -453,3 +453,32 @@ blockquote{
     font-size: 18px;
   }
 }
+/* ===== Ted’s Takes: desktop vs mobile behavior ===== */
+
+.desktop-only{
+  display: block;
+}
+
+.mobile-only{
+  display: none;
+}
+
+.timeline-mobile-content{
+  margin-top: 10px;
+}
+
+/* Mobile */
+@media (max-width: 720px){
+  .desktop-only{
+    display: none;
+  }
+
+  .mobile-only{
+    display: block;
+  }
+
+  .mobile-only summary{
+    cursor: pointer;
+    font-weight: 600;
+  }
+}
