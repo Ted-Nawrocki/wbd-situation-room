@@ -1,4 +1,4 @@
-name: Update WBD quote
+name: Update market quotes (WBD, NFLX, PSKY)
 
 on:
   workflow_dispatch:
@@ -58,11 +58,11 @@ jobs:
           PY
           }
 
-          # Core tickers
+          # WBD + NFLX
           SYMBOL="wbd.us"  OUTFILE="assets/data/wbd.json"  fetch_one "$SYMBOL" "$OUTFILE"
           SYMBOL="nflx.us" OUTFILE="assets/data/nflx.json" fetch_one "$SYMBOL" "$OUTFILE"
 
-          # PSKY: try psky.us first, fall back if Stooq uses variant naming
+          # PSKY: try primary symbol, fall back to variant if Stooq uses it
           (SYMBOL="psky.us"    OUTFILE="assets/data/psky.json" fetch_one "$SYMBOL" "$OUTFILE") || \
           (SYMBOL="psky_mv.us" OUTFILE="assets/data/psky.json" fetch_one "$SYMBOL" "$OUTFILE")
 
