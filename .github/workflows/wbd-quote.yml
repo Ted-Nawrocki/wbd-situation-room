@@ -17,7 +17,7 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Fetch quotes from Stooq and write JSON
+            - name: Fetch quotes from Stooq and write JSON
         run: |
           set -e
           mkdir -p assets/data
@@ -28,12 +28,12 @@ jobs:
 
             curl -s "https://stooq.com/q/l/?s=${SYMBOL}&f=sd2t2ohlcv&h&e=csv" > /tmp/q.csv
 
-            python3 - <<'PY'
+            SYMBOL="$SYMBOL" OUTFILE="$OUTFILE" python3 - <<'PY'
           import csv, json, datetime, os
           from pathlib import Path
 
-          symbol = os.environ["SYMBOL"]
-          outfile = os.environ["OUTFILE"]
+          symbol = os.environ.get("SYMBOL")
+          outfile = os.environ.get("OUTFILE")
 
           rows = list(csv.reader(Path("/tmp/q.csv").read_text().strip().splitlines()))
           if len(rows) < 2:
@@ -59,12 +59,12 @@ jobs:
           }
 
           # WBD + NFLX
-          SYMBOL="wbd.us"  OUTFILE="assets/data/wbd.json"  fetch_one "$SYMBOL" "$OUTFILE"
-          SYMBOL="nflx.us" OUTFILE="assets/data/nflx.json" fetch_one "$SYMBOL" "$OUTFILE"
+          fetch_one "wbd.us"  "assets/data/wbd.json"
+          fetch_one "nflx.us" "assets/data/nflx.json"
 
-          # PSKY: try primary symbol, fall back to variant if Stooq uses it
-          (SYMBOL="psky.us"    OUTFILE="assets/data/psky.json" fetch_one "$SYMBOL" "$OUTFILE") || \
-          (SYMBOL="psky_mv.us" OUTFILE="assets/data/psky.json" fetch_one "$SYMBOL" "$OUTFILE")
+          # PSKY: try primary symbol, then fallback
+          fetch_one "psky.us" "assets/data/psky.json" || \
+          fetch_one "psky_mv.us" "assets/data/psky.json"
 
       - name: Commit and push if changed
         run: |
