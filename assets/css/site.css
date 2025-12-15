@@ -534,3 +534,21 @@ blockquote{
 .callout a{
   font-weight: 700;
 }
+/* ===== Quote row (3-up) ===== */
+.quote-row{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  align-items: stretch;
+  margin: 18px 0 6px;
+}
+
+.quote-row .callout{
+  margin: 0; /* keep the row tight and even */
+}
+
+@media (max-width: 900px){
+  .quote-row{
+    grid-template-columns: 1fr; /* stack on mobile */
+  }
+}
