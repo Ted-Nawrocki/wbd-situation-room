@@ -2,16 +2,41 @@
 title: "Deal Hub"
 permalink: /deal-hub/
 ---
-<div class="callout" id="wbd-quote">
-  <div class="callout-title">WBD market price</div>
-  <p>
-    <strong id="wbd-price">Loading…</strong>
-    <span id="wbd-change" style="margin-left:10px;"></span><br/>
-    <span style="color: var(--muted); font-size: 13px;">
-      Source: Stooq (delayed). Updated <span id="wbd-updated">—</span>.
-    </span>
-  </p>
+<div class="quote-row">
+  <div class="callout" id="quote-wbd">
+    <div class="callout-title">WBD market price</div>
+    <p>
+      <strong id="wbd-price">Loading…</strong>
+      <span id="wbd-change" style="margin-left:10px;"></span><br/>
+      <span style="color: var(--muted); font-size: 13px;">
+        Source: Stooq (delayed). Updated <span id="wbd-updated">—</span>.
+      </span>
+    </p>
+  </div>
+
+  <div class="callout" id="quote-psky">
+    <div class="callout-title">PSKY market price</div>
+    <p>
+      <strong id="psky-price">Loading…</strong>
+      <span id="psky-change" style="margin-left:10px;"></span><br/>
+      <span style="color: var(--muted); font-size: 13px;">
+        Source: Stooq (delayed). Updated <span id="psky-updated">—</span>.
+      </span>
+    </p>
+  </div>
+
+  <div class="callout" id="quote-nflx">
+    <div class="callout-title">NFLX market price</div>
+    <p>
+      <strong id="nflx-price">Loading…</strong>
+      <span id="nflx-change" style="margin-left:10px;"></span><br/>
+      <span style="color: var(--muted); font-size: 13px;">
+        Source: Stooq (delayed). Updated <span id="nflx-updated">—</span>.
+      </span>
+    </p>
+  </div>
 </div>
+
 
 **As of December 13, 2025**
 
