@@ -121,3 +121,4 @@ This situation happens to combine both worlds. And like any good production, itâ
 {% else %}
 _No material updates published yet._
 {% endif %}
+</div>
