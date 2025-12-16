@@ -14,7 +14,7 @@ permalink: /
   </div>
 </section>
 
-<div class="panel">
+<div class="panel" markdown="1">
 
 ## Welcome to the Situation Room
 
