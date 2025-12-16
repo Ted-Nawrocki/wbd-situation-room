@@ -4,6 +4,18 @@ title: "Executive Brief"
 permalink: /
 ---
 
+<section class="hero" style="background-image:url('{{ '/assets/img/boardroom-hero.jpg' | relative_url }}');">
+  <div class="hero-inner">
+    <div class="hero-kicker">Situation Room • Studio Cut</div>
+    <h1 class="hero-title">WBD Situation Room</h1>
+    <p class="hero-sub">
+      A neutral executive briefing told like a Hollywood deal drama. Just the facts, plus Ted’s Takes when the plot turns.
+    </p>
+  </div>
+</section>
+
+<div class="panel">
+
 ## Welcome to the Situation Room
 
 Some corporate actions are routine.  
