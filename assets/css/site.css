@@ -566,3 +566,80 @@ blockquote{
   padding: 1rem 1.5rem;
   background: #f9fafb;
   border-top: 1
+/* ============================================
+   Glossary Tooltips
+   ============================================ */
+.glossary-term {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.glossary-term:hover {
+  border-bottom-color: #000;
+}
+
+.glossary-tooltip {
+  position: absolute;
+  width: 320px;
+  max-width: calc(100vw - 32px);
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.glossary-tooltip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.glossary-tooltip-header strong {
+  font-size: 0.9375rem;
+  color: #111827;
+  font-weight: 700;
+}
+
+.glossary-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.glossary-close:hover {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.glossary-tooltip-body {
+  padding: 1rem;
+  color: #374151;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+  .glossary-tooltip {
+    width: calc(100vw - 32px);
+    left: 16px !important;
+  }
+}
