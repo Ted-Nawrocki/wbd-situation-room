@@ -113,7 +113,7 @@ last_updated: 2025-12-27
       </tr>
       <tr>
         <td class="factor-label">Reverse Termination Fee</td>
-        <td class="paramount-col">$5.0 billion</td>
+        <td class="paramount-col">$5.8 billion</td>
         <td class="netflix-col">$5.8 billion<br/>
           <span class="detail">If terminated after March 4, 2027 for regulatory reasons</span>
         </td>
