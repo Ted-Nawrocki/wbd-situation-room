@@ -57,7 +57,7 @@ last_updated: 2025-12-27
         <td class="factor-label">Headline Value</td>
         <td class="paramount-col"><strong>$30.00</strong> per share</td>
         <td class="netflix-col"><strong>$27.75</strong> per share (reported)<br/>
-          <span class="detail">$23.25 cash + ~$4.50 Netflix stock</span>
+          <span class="detail">$23.25 cash + ~$4.50 in Netflix stock</span>
         </td>
       </tr>
       <tr>
@@ -74,13 +74,13 @@ last_updated: 2025-12-27
       </tr>
       <tr>
         <td class="factor-label">Structure</td>
-        <td class="paramount-col">Direct tender offer</td>
+        <td class="paramount-col">Direct <span class="glossary-term" data-term="tender-offer">tender offer</span></td>
         <td class="netflix-col">Post-separation acquisition</td>
       </tr>
       <tr>
         <td class="factor-label">Separation Required</td>
         <td class="paramount-col">No</td>
-        <td class="netflix-col">Yes — contingent on WBD completing separation</td>
+        <td class="netflix-col">Yes — contingent on WBD completing <span class="glossary-term" data-term="spin-off">separation</span></td>
       </tr>
       <tr>
         <td class="factor-label">Execution Sequence</td>
@@ -89,7 +89,7 @@ last_updated: 2025-12-27
       </tr>
       <tr>
         <td class="factor-label">Transaction Type</td>
-        <td class="paramount-col">Hostile tender offer</td>
+        <td class="paramount-col"><span class="glossary-term" data-term="hostile-takeover">Hostile</span> tender offer</td>
         <td class="netflix-col">Negotiated merger agreement</td>
       </tr>
       <tr>
@@ -103,7 +103,7 @@ last_updated: 2025-12-27
       </tr>
       <tr>
         <td class="factor-label">WBD Board Position</td>
-        <td class="paramount-col">Unanimously rejected</td>
+        <td class="paramount-col">Unanimously rejected via <span class="glossary-term" data-term="14d-9">14D-9 filing</span></td>
         <td class="netflix-col">Unanimously approved</td>
       </tr>
       <tr>
@@ -143,7 +143,7 @@ Two bidders. Two very different endings.
 Entire Warner Bros. Discovery enterprise
 
 **Consideration**  
-All-cash tender offer
+All-cash <span class="glossary-term" data-term="tender-offer">tender offer</span>
 
 **Headline value**  
 **$30.00 per WBD share**
@@ -199,7 +199,7 @@ The central figure in this story. Oversees the separation strategy, balance shee
 
 **Gunnar Wiedenfels**  
 Chief Financial Officer  
-Architect of the June 2025 liability management and separation framework. Owns the mechanics that made subsequent bids structurally possible.
+Architect of the June 2025 <span class="glossary-term" data-term="liability-management">liability management</span> and separation framework. Owns the mechanics that made subsequent bids structurally possible.
 
 **Samuel A. Di Piazza, Jr.**  
 Chair of the Board of Directors  
@@ -281,7 +281,7 @@ This is the season that feels slow, but it's where the plot locks in. When a com
 
 ### Just the facts
 - In June 2025, WBD announced plans to separate into two publicly traded companies: **Streaming & Studios** and **Global Networks**.
-- In connection with that plan, WBD pursued a broad debt refinancing / liability management effort (including tender offers and consents) supported by committed bridge financing, as disclosed in public filings.
+- In connection with that plan, WBD pursued a broad debt refinancing / <span class="glossary-term" data-term="liability-management">liability management</span> effort (including tender offers and consents) supported by committed bridge financing, as disclosed in public filings.
 
 ### Ted's Takes
 If you want the hinge moment for this entire saga, it isn't the hostile bid headline. It's June 2025.
@@ -307,7 +307,7 @@ Netflix and Paramount didn't invent the runway. They showed up once the lights w
 ## Episode 4: The bidders enter
 
 ### Just the facts
-- Paramount launched an **all-cash tender offer** to acquire WBD for **$30.00/share**.
+- Paramount launched an **all-cash <span class="glossary-term" data-term="tender-offer">tender offer</span>** to acquire WBD for **$30.00/share**.
 - Netflix announced a definitive transaction framework to acquire Warner Bros (Streaming & Studios) **following the separation**, using a **cash + stock** structure widely reported at **$27.75/share** (split: **$23.25 cash + ~$4.50 stock**).
 
 ### Ted's Takes
