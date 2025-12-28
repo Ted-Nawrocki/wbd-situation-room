@@ -8,12 +8,15 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
-  <header class="header">
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <header class="header" role="banner">
     <div class="container header-inner">
       <div class="brand">
         <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
       </div>
-      <nav class="nav">
+      <nav class="nav" role="navigation" aria-label="Main navigation">
         <a href="{{ '/deal-hub/' | relative_url }}">Deal Hub</a>
         <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
         <a href="{{ '/filings/' | relative_url }}">Filings</a>
@@ -25,7 +28,8 @@
       </nav>
     </div>
   </header>
-  <main class="container">
+  
+  <main id="main-content" class="container" role="main">
     {% if page.last_updated %}
       <div class="page-meta">
         <time datetime="{{ page.last_updated }}">Last updated: {{ page.last_updated | date: "%B %d, %Y" }}</time>
@@ -33,13 +37,15 @@
     {% endif %}
     {{ content }}
   </main>
-  <footer class="footer">
+  
+  <footer class="footer" role="contentinfo">
     <div class="container">
-      <div class="footer-sub">
+      <p class="footer-sub">
         Curated by Ted Nawrocki. Just the facts. Ted's Takes clearly labeled.
-      </div>
+      </p>
     </div>
   </footer>
+  
 <script src="{{ '/assets/js/quotes.js' | relative_url }}"></script>
 </body>
 </html>
