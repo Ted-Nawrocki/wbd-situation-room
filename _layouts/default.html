@@ -3,13 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}" />
-
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
-
 <body>
   <header class="header">
     <div class="container header-inner">
@@ -17,28 +14,29 @@
         <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
       </div>
       <nav class="nav">
-<nav class="nav">
-  <a href="{{ '/deal-hub/' | relative_url }}">Deal Hub</a>
-  <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
-  <a href="{{ '/filings/' | relative_url }}">Filings</a>
-  <a href="{{ '/how-to-think/' | relative_url }}">How to Think</a>
-  <a href="{{ '/watch-next/' | relative_url }}">Watch Next</a>
-  <a href="{{ '/open-questions/' | relative_url }}">Open Questions</a>
-  <a href="{{ '/why-it-matters/' | relative_url }}">Why It Matters</a>
-  <a href="{{ '/about/' | relative_url }}">About</a>
-</nav>
-</nav>
+        <a href="{{ '/deal-hub/' | relative_url }}">Deal Hub</a>
+        <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
+        <a href="{{ '/filings/' | relative_url }}">Filings</a>
+        <a href="{{ '/how-to-think/' | relative_url }}">How to Think</a>
+        <a href="{{ '/watch-next/' | relative_url }}">Watch Next</a>
+        <a href="{{ '/open-questions/' | relative_url }}">Open Questions</a>
+        <a href="{{ '/why-it-matters/' | relative_url }}">Why It Matters</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
     </div>
   </header>
-
   <main class="container">
+    {% if page.last_updated %}
+      <div class="page-meta">
+        <time datetime="{{ page.last_updated }}">Last updated: {{ page.last_updated | date: "%B %d, %Y" }}</time>
+      </div>
+    {% endif %}
     {{ content }}
   </main>
-
   <footer class="footer">
     <div class="container">
       <div class="footer-sub">
-        Curated by Ted Nawrocki. Just the facts. Ted’s Takes clearly labeled.
+        Curated by Ted Nawrocki. Just the facts. Ted's Takes clearly labeled.
       </div>
     </div>
   </footer>
