@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "WBD Board Unanimously Rejects PSKY's $30 Tender Offer"
 date: 2025-12-15
+as_of: "December 15, 2025"
 excerpt: "The WBD Board filed a Schedule 14D-9 with the SEC, formally recommending shareholders reject Paramount Skydance's hostile tender offer and reaffirming support for the Netflix merger agreement."
 ---
 
