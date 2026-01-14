@@ -2,7 +2,7 @@
 layout: page
 title: "Executive Brief"
 permalink: /
-last_updated: 2025-12-27
+last_updated: 2026-01-13
 ---
 
 <section class="hero" style="background-image:url('{{ '/assets/img/boardroom-hero.jpg' | relative_url }}');">
