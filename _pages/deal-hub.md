@@ -1,7 +1,7 @@
 ---
 title: "Deal Hub"
 permalink: /deal-hub/
-last_updated: 2025-12-27
+last_updated: 2026-01-13
 ---
 
 <div class="quote-row">
