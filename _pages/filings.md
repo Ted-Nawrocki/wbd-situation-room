@@ -1,7 +1,7 @@
 ---
 title: "Filings & Sources"
 permalink: /filings/
-last_updated: 2025-12-27
+last_updated: 2026-01-13
 ---
 
 This page catalogues the primary source material referenced throughout *WBD Situation Room*.  
@@ -53,10 +53,22 @@ WBD Board's unanimous recommendation to reject PSKY's $30/share tender offer
 
 ---
 
+### All WBD SEC Filings
+
+**Warner Bros. Discovery SEC EDGAR Page**  
+Complete archive of all SEC filings  
+[SEC EDGAR - Warner Bros. Discovery (CIK: 0001437107)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001437107&owner=exclude&count=100)
+
+---
+
 ## Paramount Skydance – SEC Filings & Disclosures
 
 **Schedule TO: Tender Offer Statement** (December 8, 2025)  
 PSKY's hostile tender offer to acquire WBD at $30.00 per share  
+[SEC EDGAR - PSKY Filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001951621&type=SC&dateb=&owner=exclude&count=100)
+
+**Schedule TO/A: Amended Tender Offer Statement** (December 22, 2025)  
+PSKY's amended offer including Larry Ellison personal guarantee and increased reverse termination fee  
 [SEC EDGAR - PSKY Filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001951621&type=SC&dateb=&owner=exclude&count=100)
 
 **Paramount Global Investor Relations**  
@@ -76,6 +88,25 @@ Material developments and strategic transactions
 
 ---
 
+## Delaware Chancery Court – Litigation Filings
+
+### Paramount Skydance Corp. v. Warner Bros. Discovery, Inc., et al.
+
+**Complaint for Breach of Fiduciary Duty** (Filed January 13, 2026)  
+Paramount's lawsuit seeking disclosure of WBD board's financial analysis and valuation methodology  
+Case No.: [To be added upon public docket availability]  
+[Delaware Chancery Court Docket Search](https://courts.delaware.gov/chancery/)
+
+**Motion for Expedited Proceedings** (Filed January 13, 2026)  
+Paramount's request for expedited discovery and trial scheduling  
+[Delaware Chancery Court Docket Search](https://courts.delaware.gov/chancery/)
+
+**Letter to WBD Shareholders** (January 13, 2026)  
+Paramount's direct communication to shareholders regarding lawsuit and board nomination strategy  
+Available through PSKY investor relations and SEC Schedule 14A filings
+
+---
+
 ## General SEC Resources
 
 **SEC EDGAR Search**  
@@ -90,6 +121,22 @@ All tender offer statements across companies
 Board recommendations on tender offers  
 [Search Schedule 14D-9](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=SC+14D9&dateb=&owner=exclude&count=100)
 
+**Proxy Statements (Schedule 14A)**  
+Shareholder meeting materials and board elections  
+[Search Schedule 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=DEF+14A&dateb=&owner=exclude&count=100)
+
+---
+
+## Delaware Court Resources
+
+**Delaware Court of Chancery**  
+Official site for docket searches and court rules  
+[courts.delaware.gov/chancery](https://courts.delaware.gov/chancery/)
+
+**Chancery Court Daily Docket**  
+Daily listing of new filings and orders  
+[Chancery Daily Docket](https://courts.delaware.gov/chancery/dockets.aspx)
+
 ---
 
 ## Financial Journalism
@@ -100,6 +147,7 @@ The following outlets are referenced for contextual reporting only. Facts are al
 - [Financial Times](https://www.ft.com)
 - [Wall Street Journal](https://www.wsj.com)
 - [Reuters](https://www.reuters.com)
+- [Front Office Sports](https://frontofficesports.com)
 
 ---
 
