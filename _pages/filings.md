@@ -147,7 +147,6 @@ The following outlets are referenced for contextual reporting only. Facts are al
 - [Financial Times](https://www.ft.com)
 - [Wall Street Journal](https://www.wsj.com)
 - [Reuters](https://www.reuters.com)
-- [Front Office Sports](https://frontofficesports.com)
 
 ---
 
