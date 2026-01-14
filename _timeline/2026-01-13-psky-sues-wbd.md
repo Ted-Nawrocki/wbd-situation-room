@@ -25,7 +25,6 @@ The phrase 'increasingly novel reasons' in Paramount's complaint is worth noting
 
 That said, WBD has already characterized the lawsuit as 'meritless,' which is also standard posture in contested M&A litigation. Both sides are now operating in parallel tracks: legal proceedings in Delaware and a shareholder persuasion campaign in the market. Whichever path produces results first will likely determine how this situation resolves."
 sources:
-  - "Front Office Sports - 'Paramount Sues Warner Bros. in Escalation of Takeover Fight,' January 13, 2026"
   - "Delaware Chancery Court filing, Paramount Skydance Corp. v. Warner Bros. Discovery, Inc., et al., January 13, 2026"
   - "Paramount Skydance letter to WBD shareholders, January 13, 2026"
 ---
