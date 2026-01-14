@@ -2,12 +2,14 @@
 title: "How to Think About This Deal"
 permalink: /how-to-think/
 layout: page
+last_updated: 2026-01-13
 ---
 
+*Updated January 2026: With Paramount now pursuing both litigation and a proxy contest, the framework below remains relevant—but the timeline and tactical complexity have both increased.*
 
 ## How to think about this deal
 
-This situation rewards a clear mental framework. Without one, it’s easy to fixate on headlines and miss the forces that will actually determine how, and whether, this story concludes.
+This situation rewards a clear mental framework. Without one, it's easy to fixate on headlines and miss the forces that will actually determine how, and whether, this story concludes.
 
 Here are the lenses that matter.
 
@@ -44,7 +46,7 @@ From this point forward, execution risk dominates strategic ambition.
 
 ### 3. June 2025 set the boundary conditions for everything that followed.
 
-The hostile phase feels like the start of the drama. It isn’t.
+The hostile phase feels like the start of the drama. It isn't.
 
 The decisive shift occurred when Warner Bros. Discovery executed its separation framework and related liability management in June 2025. That moment:
 - defined which assets could travel together and which could not
@@ -68,6 +70,8 @@ Regulatory review is not binary. It introduces delay, optionality, and leverage.
 - negotiating posture
 
 In high-profile media transactions, regulatory risk is not an externality. It is part of the deal design.
+
+Recent developments have added another layer. The Department of Justice has announced reviews of both the Netflix and Paramount transactions, and public statements from the executive branch suggest heightened scrutiny. In contested M&A, regulatory uncertainty does not just delay outcomes—it creates optionality for both bidders and targets. A party with a less favorable offer can argue that regulatory risk makes their path more certain. A party with a more favorable offer can argue that regulatory concerns are pretextual. Watch how each side uses the DOJ process as leverage.
 
 ---
 
@@ -110,11 +114,25 @@ Strategy sets direction. Corporate actions determines whether the deal actually 
 
 ---
 
-### 8. What not to overinterpret.
+### 8. Proxy contests change the calculus.
+
+When a hostile bidder cannot win on price or persuasion alone, the next lever is board composition.
+
+Paramount's decision to nominate directors for WBD's 2026 annual meeting shifts this from a transaction negotiation to a governance battle. Proxy fights introduce:
+- Extended timelines that outlast tender offer deadlines
+- Shareholder voting dynamics that differ from tendering decisions
+- Institutional investor engagement on fiduciary duty and board independence
+- Public campaigns that blur the line between financial analysis and narrative control
+
+A proxy contest is not an admission of defeat. It is a recognition that control of the board may be the only path to control of the transaction. Delaware courts see these dynamics regularly. The question is whether shareholders view a board challenge as legitimate activism or desperation.
+
+---
+
+### 9. What not to overinterpret.
 
 A note of discipline.
 
-Early headlines do not determine outcomes. Hostile does not mean impossible. Friendly does not mean easy. Cash is not “certain” until it settles, and stock is not inherently speculative if it clears.
+Early headlines do not determine outcomes. Lawsuits in Delaware Chancery Court are a standard feature of hostile M&A, not a signal that one side is winning or losing. Proxy fights can succeed or fail independent of litigation outcomes. Hostile does not mean impossible. Friendly does not mean easy. Cash is not "certain" until it settles, and stock is not inherently speculative if it clears.
 
 The only reliable signals are the ones embedded in structure, filings, and execution.
 
