@@ -1,7 +1,7 @@
 ---
 title: "Deal Hub"
 permalink: /deal-hub/
-last_updated: 2026-01-13
+last_updated: 2026-01-20
 ---
 
 <div class="quote-row">
@@ -56,14 +56,16 @@ last_updated: 2026-01-13
       <tr>
         <td class="factor-label">Headline Value</td>
         <td class="paramount-col"><strong>$30.00</strong> per share</td>
-        <td class="netflix-col"><strong>$27.75</strong> per share (reported)<br/>
-          <span class="detail">$23.25 cash + ~$4.50 in Netflix stock</span>
+        <td class="netflix-col"><strong>$27.75</strong> per share<br/>
+          <span class="detail">All cash (amended January 20, 2026)</span>
         </td>
       </tr>
       <tr>
         <td class="factor-label">Consideration Type</td>
         <td class="paramount-col">All cash</td>
-        <td class="netflix-col">Cash + Netflix equity</td>
+        <td class="netflix-col">All cash<br/>
+          <span class="detail">Originally cash + Netflix equity; revised to all cash</span>
+        </td>
       </tr>
       <tr>
         <td class="factor-label">Transaction Scope</td>
@@ -107,9 +109,18 @@ last_updated: 2026-01-13
         <td class="netflix-col">Unanimously approved</td>
       </tr>
       <tr>
-        <td class="factor-label">Offer Expires</td>
-        <td class="paramount-col">January 8, 2026 (unless extended)</td>
-        <td class="netflix-col">Mid-2026 target close</td>
+        <td class="factor-label">Shareholder Vote Timing</td>
+        <td class="paramount-col">Tender deadline: January 21, 2026 (subject to extension)</td>
+        <td class="netflix-col">Target: April 2026<br/>
+          <span class="detail">Accelerated timeline due to all-cash structure</span>
+        </td>
+      </tr>
+      <tr>
+        <td class="factor-label">Financing</td>
+        <td class="paramount-col">Committed financing from Bank of America, Citigroup, Apollo Global Management<br/>
+          <span class="detail">$40.4B personal guarantee from Larry Ellison</span>
+        </td>
+        <td class="netflix-col">Cash on hand, available credit facilities, and committed financing</td>
       </tr>
       <tr>
         <td class="factor-label">Reverse Termination Fee</td>
@@ -129,7 +140,7 @@ last_updated: 2026-01-13
   </table>
 </div>
 
-<p class="table-note"><em>Note: Information compiled from public filings and press releases. Netflix consideration split ($23.25 cash + ~$4.50 stock) is based on reported figures and subject to final terms.</em></p>
+<p class="table-note"><em>Note: Information compiled from public filings and press releases. Netflix revised its offer to all-cash on January 20, 2026, eliminating the stock component from its original proposal.</em></p>
 
 ---
 
@@ -153,35 +164,53 @@ All-cash <span class="glossary-term" data-term="tender-offer">tender offer</span
 - No separation required  
 - Consideration is delivered entirely in cash  
 - Simpler mechanics, but absorbs both legacy networks and streaming assets  
+- Tender deadline: January 21, 2026 (subject to extension)
+
+**Strategic context**  
+- Hostile offer, not endorsed by WBD Board
+- Filed lawsuit in Delaware Chancery Court seeking additional disclosure (motion to expedite denied January 15, 2026)
+- Announced proxy contest, planning to nominate directors for 2026 annual meeting
 
 **Primary sources**  
-- Paramount Global press release (December 2025)  
-- Paramount Global SEC filings (Form 8-K)
+- Paramount Global press release (December 2025)
+- Paramount Global SEC filings (Schedule TO and amendments)
+- Delaware Chancery Court filings (January 2026)
 
 ---
 
-### Netflix — Cash + stock, streaming business only
+### Netflix — All-cash, streaming business only (amended)
 
 **Scope**  
 Warner Bros. Discovery **Streaming & Studios** business
 
 **Consideration**  
-Cash plus Netflix equity
+All cash (amended January 20, 2026)
 
-**Headline value (reported)**  
+**Headline value**  
 **$27.75 per WBD share**  
-(Reported split: **$23.25 cash + approximately $4.50 in Netflix stock**)
+Previously structured as **$23.25 cash + approximately $4.50 in Netflix stock**; revised to **$27.75 all cash**
 
 **Structural notes**  
 - Transaction explicitly contingent on WBD completing its separation  
 - Netflix does **not** acquire Global Networks  
 - Multi-step execution: separation first, acquisition second  
 - Structure relies on the June 2025 refinancing and separation framework  
+- WBD stockholders also receive shares of Discovery Global following separation
+- All-cash structure accelerates timeline to shareholder vote (target: April 2026)
+
+**Financing**  
+Combination of cash on hand, available credit facilities, and committed financing
+
+**Strategic context**  
+- Negotiated transaction, unanimously approved by WBD Board
+- Preliminary proxy statement filed January 20, 2026
+- Total enterprise value: approximately $82.7 billion (including debt)
+- Equity value: $72 billion
 
 **Primary sources**  
-- Netflix investor announcement (December 2025)  
-- Warner Bros. Discovery Form 8-K  
-- Reuters reporting on transaction consideration
+- Netflix press release (January 20, 2026)
+- Warner Bros. Discovery Form 8-K and preliminary proxy statement (January 20, 2026)
+- CNBC, Associated Press, CBS News coverage (January 20, 2026)
 
 ---
 
@@ -219,7 +248,7 @@ Operational and product-focused leader. Central to Netflix's execution posture a
 
 **Spencer Neumann**  
 Chief Financial Officer  
-Responsible for financing structure, capital allocation, and balance sheet implications of a cash-and-stock transaction.
+Responsible for financing structure, capital allocation, and balance sheet implications of the transaction.
 
 ---
 
@@ -308,7 +337,7 @@ Netflix and Paramount didn't invent the runway. They showed up once the lights w
 
 ### Just the facts
 - Paramount launched an **all-cash <span class="glossary-term" data-term="tender-offer">tender offer</span>** to acquire WBD for **$30.00/share**.
-- Netflix announced a definitive transaction framework to acquire Warner Bros (Streaming & Studios) **following the separation**, using a **cash + stock** structure widely reported at **$27.75/share** (split: **$23.25 cash + ~$4.50 stock**).
+- Netflix announced a definitive transaction framework to acquire Warner Bros (Streaming & Studios) **following the separation**, using a **cash + stock** structure initially reported at **$27.75/share** (split: **$23.25 cash + ~$4.50 stock**).
 
 ### Ted's Takes
 Now the story switches genres from "restructuring" to "contested process."
@@ -323,25 +352,70 @@ Both are credible. Both are complex in different ways. And both place enormous w
 
 ---
 
-## Episode 5: Execution becomes the story
+## Episode 5: Delaware Court and the structural critique
 
 ### Just the facts
-- The outcome depends on structure, timing, conditions, and the ability to execute cleanly under scrutiny.
-- Shareholders, boards, and practitioners are navigating a live contested environment.
+- Paramount filed suit in Delaware Chancery Court on January 13, 2026, alleging breach of fiduciary duty and seeking disclosure of WBD's financial analysis behind the Netflix recommendation.
+- Paramount filed a motion for expedited proceedings, citing the January 21, 2026 tender deadline.
+- On January 15, 2026, Vice Chancellor Morgan T. Zurn denied the motion to expedite, ruling that Paramount failed to demonstrate "cognizable irreparable harm."
+- Paramount announced plans to nominate directors for WBD's 2026 annual meeting, initiating a proxy contest.
 
 ### Ted's Takes
-At this stage, the smart money isn't on the best press release. It's on the cleanest close.
+This is where the plot shifts from "competing offers" to "parallel campaigns." Paramount is operating on multiple fronts: litigation for disclosure, a tender offer for shareholder action, and a proxy contest for board control.
 
-In these moments, corporate actions stops being "operations" and becomes the last mile of strategy. The ending won't be decided by who tells the best story. It'll be decided by who can actually deliver the consideration, satisfy conditions, clear review, and hit deadlines without a procedural faceplant.
+The Delaware ruling matters, but not for the reasons headlines suggest. The court didn't rule on the merits of Paramount's disclosure claims. It ruled on procedure: whether the case warranted expedited treatment. The answer was no, because Paramount couldn't show irreparable harm to itself as a shareholder.
 
-And yes, in a Hollywood story, the procedural faceplant is always a possibility.
+Translation: the lawsuit continues, but on a normal timeline. That timeline extends well beyond the current tender deadline, which means the litigation path and the tender path have decoupled. Paramount must now rely on shareholder persuasion or proxy success rather than court-ordered disclosure to shift momentum.
+
+Meanwhile, the proxy contest introduces a longer game. Annual meetings don't happen overnight, and director nominations require advance notice windows, campaigns, and institutional investor engagement. Paramount is signaling it's prepared to fight this over quarters, not weeks.
+
+---
+
+## Episode 6: Netflix eliminates the structural argument
+
+### Just the facts
+- On January 20, 2026, Netflix and WBD announced an amendment to their merger agreement, converting the transaction to all-cash consideration.
+- The amended offer remains $27.75 per share, eliminating the stock component that was part of the original structure.
+- WBD stockholders will receive $27.75 in cash plus shares of Discovery Global following separation.
+- Transaction will be financed through cash on hand, available credit facilities, and committed financing.
+- WBD filed its preliminary proxy statement on January 20, 2026.
+- Companies are targeting shareholder vote by April 2026, accelerating the timeline from the prior late spring/summer target.
+
+### Ted's Takes
+This is a tactical recalibration, not a price increase. Netflix has identified the most persuasive element of Paramount's argument and removed it from the board.
+
+From the outset, Paramount positioned its all-cash structure as cleaner and more certain than Netflix's cash-and-stock proposal. The stock component introduced variables: Netflix's trading price, collar mechanics, and shareholder evaluation of equity risk. Paramount leveraged this complexity to argue that its offer provided certainty while Netflix's required faith in future stock performance.
+
+Netflix has now converted to 100% cash at the same $27.75 valuation. This eliminates the structural critique and forces the comparison back to price. The question becomes: is $2.25 per share enough of a premium to justify Paramount's whole-company acquisition versus Netflix's targeted acquisition of the growth assets?
+
+The timing is also significant. This amendment arrives five days after the Delaware Court denied Paramount's motion to expedite. With that legal path stalled, Netflix has preemptively addressed the structural argument before it could gain traction with institutional investors evaluating the proxy contest.
+
+The all-cash revision also demonstrates financing confidence. Netflix is committing balance sheet capacity rather than using stock as currency, which signals conviction in the strategic rationale and a preference to preserve equity for other purposes.
+
+For Paramount, the path forward narrows. Without a structural advantage, the company must either raise its bid to create a meaningful price gap or rely entirely on the proxy contest to install a board willing to engage on different terms. The latter strategy introduces considerable execution risk and timeline uncertainty.
+
+One final observation: all-cash structures simplify corporate actions execution. There are no exchange ratios to administer, no fractional shares to resolve, and no post-closing adjustments. Shareholders tender for a known dollar amount, settlement occurs in cash, and operational risk contracts meaningfully. Netflix has moved from complex to clean, and in contested M&A, that often proves determinative.
 
 ---
 
 ## What to watch next
-- New filings clarifying sequencing, conditions, and mechanics
-- Any amendments to tender offer terms or timelines
-- Board responses and shareholder communications
-- Any additional disclosures that sharpen the boundary between Global Networks and Streaming & Studios
+
+**Near-term (January through March 2026):**
+- Paramount's decision on whether to extend tender offer deadline beyond January 21, 2026
+- SEC review of WBD's preliminary proxy statement and timing to definitive proxy
+- Paramount's formal director nominations for WBD's annual meeting (advance notice window opens soon)
+- Any pricing adjustments from either bidder
+
+**Medium-term (April through June 2026):**
+- WBD shareholder vote on Netflix transaction (target: April 2026)
+- Progress on Discovery Global separation (expected 6-9 months before Netflix transaction closes)
+- Department of Justice review milestones for both proposed transactions
+- Proxy contest developments and institutional investor positioning
+
+**Structural questions that remain open:**
+- Whether Paramount increases its $30 per share offer
+- How institutional investors evaluate the proxy contest
+- What Discovery Global's standalone valuation and capital structure will look like post-separation
+- Whether regulatory review timelines favor one transaction path over the other
 
 <script src="{{ '/assets/js/quotes.js' | relative_url }}"></script>
