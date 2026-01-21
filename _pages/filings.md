@@ -1,7 +1,7 @@
 ---
 title: "Filings & Sources"
 permalink: /filings/
-last_updated: 2026-01-13
+last_updated: 2026-01-20
 ---
 
 This page catalogues the primary source material referenced throughout *WBD Situation Room*.  
@@ -37,11 +37,19 @@ Related to ~$14.6 billion debt refinancing
 
 ---
 
-### Netflix Merger Agreement (December 2025)
+### Netflix Merger Agreement (December 2025 - January 2026)
 
 **Form 8-K: Netflix Merger Agreement** (December 5, 2025)  
 Definitive agreement for Netflix to acquire WBD Streaming & Studios business  
 [SEC EDGAR - WBD Form 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001437107&type=8-K&dateb=&owner=exclude&count=100)
+
+**Amendment to Netflix Merger Agreement** (January 20, 2026)  
+Amendment converting transaction to all-cash consideration at $27.75 per share  
+[WBD Press Release](https://ir.wbd.com/news-events/press-releases)
+
+**Preliminary Proxy Statement on Schedule 14A** (Filed January 20, 2026)  
+WBD's preliminary proxy seeking shareholder approval of Netflix transaction  
+[SEC EDGAR - WBD Form 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001437107&type=DEF+14A&dateb=&owner=exclude&count=100)
 
 ---
 
@@ -78,6 +86,10 @@ PSKY's amended offer including Larry Ellison personal guarantee and increased re
 
 ## Netflix – SEC Filings & Disclosures
 
+**Netflix Press Release: All-Cash Amendment** (January 20, 2026)  
+Netflix and WBD announce amendment to all-cash transaction structure  
+[Netflix About: News](https://about.netflix.com/en/news/netflix-and-warner-bros-discovery-amend-agreement-to-all-cash-transaction)
+
 **Netflix Investor Relations**  
 Press releases and SEC filings related to WBD transaction  
 [IR.Netflix.net](https://ir.netflix.net)
@@ -99,6 +111,10 @@ Case No.: [To be added upon public docket availability]
 
 **Motion for Expedited Proceedings** (Filed January 13, 2026)  
 Paramount's request for expedited discovery and trial scheduling  
+[Delaware Chancery Court Docket Search](https://courts.delaware.gov/chancery/)
+
+**Court Order Denying Motion to Expedite** (January 15, 2026)  
+Vice Chancellor Morgan T. Zurn's ruling that Paramount failed to demonstrate cognizable irreparable harm  
 [Delaware Chancery Court Docket Search](https://courts.delaware.gov/chancery/)
 
 **Letter to WBD Shareholders** (January 13, 2026)  
@@ -147,6 +163,11 @@ The following outlets are referenced for contextual reporting only. Facts are al
 - [Financial Times](https://www.ft.com)
 - [Wall Street Journal](https://www.wsj.com)
 - [Reuters](https://www.reuters.com)
+- [CNBC](https://www.cnbc.com)
+- [Associated Press](https://apnews.com)
+- [CBS News](https://www.cbsnews.com)
+- [Variety](https://variety.com)
+- [Deadline](https://deadline.com)
 
 ---
 
