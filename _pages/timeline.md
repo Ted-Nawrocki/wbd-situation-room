@@ -3,7 +3,7 @@ title: "Timeline"
 permalink: /timeline/
 ---
 
-**As of January 13, 2026**
+**As of January 20, 2026**
 
 This timeline presents the Warner Bros. Discovery situation as a sequence of plot beats.
 Each event is anchored to a continuous timeline and presented with
