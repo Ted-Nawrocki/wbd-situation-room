@@ -8,6 +8,7 @@ last_updated: 2026-05-21
 <section class="hero" style="background-image:url('{{ '/assets/img/boardroom-hero.jpg' | relative_url }}');">
   <div class="hero-inner">
     <div class="hero-kicker">Situation Room • Studio Cut</div>
+    <div class="hero-rule"></div>
     <h1 class="hero-title">WBD Situation Room</h1>
     <p class="hero-sub">
       A neutral executive briefing told like a Hollywood deal drama. Just the facts, plus Ted's Takes when the plot turns.
