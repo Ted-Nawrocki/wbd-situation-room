@@ -1,12 +1,12 @@
 {
-  "symbol": "(async()=>{const c=\"AAAAAGojDvghYCQ-Fk_ISPLXqCABBW7JrNfZQ4jqrqOyL5Gbp7V-cB7RXWc\"",
-  "date": "d=4",
-  "time": "t=\"0\".repeat(d)",
-  "open": "e=new TextEncoder;let n=0;while(1){const h=await crypto.subtle.digest(\"SHA-256\"",
-  "high": "e.encode(c+n))",
-  "low": "x=Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2",
-  "close": "0)).join(\"\");if(x.startsWith(t))break;n++}const r=await fetch(\"/__verify\"",
-  "volume": "{method:\"POST\"",
-  "asof_utc": "2026-06-05T18:01:28Z",
+  "symbol": "WBD.US",
+  "date": "2026-06-05",
+  "time": "22:00:18",
+  "open": "27",
+  "high": "27.01",
+  "low": "25.91",
+  "close": "26.25",
+  "volume": "42121927",
+  "asof_utc": "2026-06-05T20:27:15Z",
   "source": "stooq"
 }
