@@ -1,12 +1,12 @@
 {
-  "symbol": "NFLX.US",
-  "date": "2026-06-04",
-  "time": "22:00:19",
-  "open": "83.19",
-  "high": "83.7",
-  "low": "81.37",
-  "close": "81.56",
-  "volume": "39338810",
-  "asof_utc": "2026-06-05T12:14:41Z",
+  "symbol": "(async()=>{const c=\"AAAAAGoi7L88r5ZXa61shmRsirQgyiTROZeCA5pLO7CMqhgtWeWKuMYNZmM\"",
+  "date": "d=4",
+  "time": "t=\"0\".repeat(d)",
+  "open": "e=new TextEncoder;let n=0;while(1){const h=await crypto.subtle.digest(\"SHA-256\"",
+  "high": "e.encode(c+n))",
+  "low": "x=Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2",
+  "close": "0)).join(\"\");if(x.startsWith(t))break;n++}const r=await fetch(\"/__verify\"",
+  "volume": "{method:\"POST\"",
+  "asof_utc": "2026-06-05T15:35:27Z",
   "source": "stooq"
 }

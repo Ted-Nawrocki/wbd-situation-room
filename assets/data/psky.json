@@ -1,5 +1,5 @@
 {
-  "symbol": "(async()=>{const c=\"AAAAAGoivbLeIKS4I7gnNBFIFXnly_1RkYRkUhkv2F1tE7901aDebA7zRs4\"",
+  "symbol": "(async()=>{const c=\"AAAAAGoi7MDpnx5ZC241UsKur9DYwQi7OZeCA1sqRDUH4FSsZ2YYUBhZhXc\"",
   "date": "d=4",
   "time": "t=\"0\".repeat(d)",
   "open": "e=new TextEncoder;let n=0;while(1){const h=await crypto.subtle.digest(\"SHA-256\"",
@@ -7,6 +7,6 @@
   "low": "x=Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2",
   "close": "0)).join(\"\");if(x.startsWith(t))break;n++}const r=await fetch(\"/__verify\"",
   "volume": "{method:\"POST\"",
-  "asof_utc": "2026-06-05T12:14:42Z",
+  "asof_utc": "2026-06-05T15:35:28Z",
   "source": "stooq"
 }
