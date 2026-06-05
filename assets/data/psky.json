@@ -1,12 +1,12 @@
 {
-  "symbol": "PSKY.US",
-  "date": "2026-06-04",
-  "time": "22:00:18",
-  "open": "10.51",
-  "high": "10.87",
-  "low": "10.51",
-  "close": "10.68",
-  "volume": "4881928",
-  "asof_utc": "2026-06-05T08:49:42Z",
+  "symbol": "(async()=>{const c=\"AAAAAGoivbLeIKS4I7gnNBFIFXnly_1RkYRkUhkv2F1tE7901aDebA7zRs4\"",
+  "date": "d=4",
+  "time": "t=\"0\".repeat(d)",
+  "open": "e=new TextEncoder;let n=0;while(1){const h=await crypto.subtle.digest(\"SHA-256\"",
+  "high": "e.encode(c+n))",
+  "low": "x=Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2",
+  "close": "0)).join(\"\");if(x.startsWith(t))break;n++}const r=await fetch(\"/__verify\"",
+  "volume": "{method:\"POST\"",
+  "asof_utc": "2026-06-05T12:14:42Z",
   "source": "stooq"
 }
