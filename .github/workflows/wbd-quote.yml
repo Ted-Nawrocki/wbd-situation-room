@@ -3,7 +3,7 @@ name: Update market quotes (WBD, NFLX, PSKY)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * 1-5"  # every 30 min, Mon–Fri (UTC)
+    - cron: "*/30 * * * 1-5"  # every 30 min, Mon-Fri (UTC)
 
 permissions:
   contents: write
@@ -17,66 +17,119 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Fetch quotes from Stooq and write JSON
+      - name: Fetch quotes from Finnhub and write JSON
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: |
-          set -e
+          set -euo pipefail
+
+          if [ -z "${FINNHUB_API_KEY:-}" ]; then
+            echo "ERROR: FINNHUB_API_KEY secret is not set."
+            exit 1
+          fi
+
           mkdir -p assets/data
 
           fetch_one () {
-            local SYMBOL="$1"
-            local OUTFILE="$2"
+            SYMBOL="$1"
+            OUTFILE="$2"
 
-            curl -s "https://stooq.com/q/l/?s=${SYMBOL}&f=sd2t2ohlcv&h&e=csv" > /tmp/q.csv
+            # Finnhub /quote returns JSON, not CSV. Write the raw body to a
+            # temp file and let Python validate it before anything is saved.
+            HTTP_CODE=$(curl -s -w "%{http_code}" -o /tmp/q.json \
+              "https://finnhub.io/api/v1/quote?symbol=${SYMBOL}&token=${FINNHUB_API_KEY}")
+
+            if [ "$HTTP_CODE" != "200" ]; then
+              echo "ERROR: Finnhub returned HTTP $HTTP_CODE for $SYMBOL"
+              return 1
+            fi
 
             SYMBOL="$SYMBOL" OUTFILE="$OUTFILE" python3 - <<'PY'
-          import csv, json, datetime, os
+          import json, datetime, os
           from pathlib import Path
 
-          symbol = os.environ.get("SYMBOL")
-          outfile = os.environ.get("OUTFILE")
+          symbol = os.environ["SYMBOL"]
+          outfile = os.environ["OUTFILE"]
 
-          rows = list(csv.reader(Path("/tmp/q.csv").read_text().strip().splitlines()))
-          if len(rows) < 2:
-              raise SystemExit(f"No data returned from Stooq for {symbol}")
+          raw = Path("/tmp/q.json").read_text().strip()
 
-          r = rows[1]  # Symbol,Date,Time,Open,High,Low,Close,Volume
+          # 1. Must be valid JSON.
+          try:
+              q = json.loads(raw)
+          except Exception as e:
+              raise SystemExit(f"ERROR: response for {symbol} is not valid JSON: {e}")
+
+          # 2. Must be a JSON object, not a list or string.
+          if not isinstance(q, dict):
+              raise SystemExit(f"ERROR: response for {symbol} is not a JSON object")
+
+          # 3. Required numeric fields from Finnhub /quote:
+          #    c=current, o=open, h=high, l=low, pc=previous close, t=timestamp
+          required = ["c", "o", "h", "l", "pc", "t"]
+          missing = [k for k in required if k not in q]
+          if missing:
+              raise SystemExit(f"ERROR: response for {symbol} missing fields: {missing}")
+
+          # 4. Every price field must be a real number, and current price
+          #    must be > 0. Finnhub returns c=0 for unknown/invalid symbols.
+          def num(key):
+              v = q[key]
+              if isinstance(v, bool) or not isinstance(v, (int, float)):
+                  raise SystemExit(f"ERROR: field {key} for {symbol} is not numeric: {v!r}")
+              return float(v)
+
+          current = num("c")
+          openp   = num("o")
+          high    = num("h")
+          low     = num("l")
+          prevcl  = num("pc")
+          ts      = q["t"]
+
+          if current <= 0:
+              raise SystemExit(f"ERROR: current price for {symbol} is {current} (likely invalid symbol or no data)")
+
+          if not isinstance(ts, (int, float)) or ts <= 0:
+              raise SystemExit(f"ERROR: timestamp for {symbol} is invalid: {ts!r}")
+
+          # 5. Sanity bounds. A legitimate equity quote will not be absurd.
+          for label, val in [("current", current), ("open", openp), ("high", high), ("low", low), ("prevclose", prevcl)]:
+              if val < 0 or val > 1_000_000:
+                  raise SystemExit(f"ERROR: {label} for {symbol} out of plausible range: {val}")
+
+          # Build the market datetime from the Finnhub epoch timestamp (UTC).
+          dt = datetime.datetime.fromtimestamp(ts, tz=datetime.timezone.utc)
+
           data = {
-              "symbol": r[0],
-              "date": r[1],
-              "time": r[2],
-              "open": r[3],
-              "high": r[4],
-              "low": r[5],
-              "close": r[6],
-              "volume": r[7],
-              "asof_utc": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z",
-              "source": "stooq"
+              "symbol": symbol.upper(),
+              "date": dt.strftime("%Y-%m-%d"),
+              "time": dt.strftime("%H:%M:%S"),
+              "open": f"{openp:.4f}",
+              "high": f"{high:.4f}",
+              "low": f"{low:.4f}",
+              "close": f"{current:.4f}",
+              "volume": "",  # Finnhub /quote does not return volume
+              "asof_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
+              "source": "finnhub"
           }
 
           Path(outfile).write_text(json.dumps(data, indent=2) + "\n")
-          print("Wrote", outfile)
+          print(f"Wrote {outfile}: close={data['close']} ({data['date']} {data['time']} UTC)")
           PY
           }
 
-          # Core tickers
-          fetch_one "wbd.us"  "assets/data/wbd.json"
-          fetch_one "nflx.us" "assets/data/nflx.json"
-
-          # PSKY: try primary symbol, then fallback variant
-          fetch_one "psky.us" "assets/data/psky.json" || fetch_one "psky_mv.us" "assets/data/psky.json"
+          fetch_one "WBD"  "assets/data/wbd.json"
+          fetch_one "NFLX" "assets/data/nflx.json"
+          fetch_one "PSKY" "assets/data/psky.json"
 
       - name: Commit and push if changed
         run: |
-          set -e
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add assets/data/wbd.json assets/data/nflx.json assets/data/psky.json
-
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-
           git commit -m "Update market quotes"
           git push
