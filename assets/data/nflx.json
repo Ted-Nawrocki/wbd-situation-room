@@ -1,12 +1,12 @@
 {
-  "symbol": "(async()=>{const c=\"AAAAAGomSYXHpMMVNjK-DyZqO0lTwRfIrLdbp34KHHL3e0jlHjkENLldEp0\"",
-  "date": "d=4",
-  "time": "t=\"0\".repeat(d)",
-  "open": "e=new TextEncoder;let n=0;while(1){const h=await crypto.subtle.digest(\"SHA-256\"",
-  "high": "e.encode(c+n))",
-  "low": "x=Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2",
-  "close": "0)).join(\"\");if(x.startsWith(t))break;n++}const r=await fetch(\"/__verify\"",
-  "volume": "{method:\"POST\"",
-  "asof_utc": "2026-06-08T04:48:08Z",
-  "source": "stooq"
+  "symbol": "NFLX",
+  "date": "2026-06-11",
+  "time": "20:00:00",
+  "open": "81.8700",
+  "high": "82.1000",
+  "low": "80.0900",
+  "close": "81.2700",
+  "volume": "",
+  "asof_utc": "2026-06-12T05:16:24Z",
+  "source": "finnhub"
 }
