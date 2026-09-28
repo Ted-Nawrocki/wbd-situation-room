@@ -3,58 +3,56 @@ layout: update
 title: "Can the Ellisons Actually Close the Deal?"
 as_of: "September 26, 2026"
 categories: [financing, corporate-actions]
-tags: [Paramount Skydance, Warner Bros. Discovery, Ellison, Oracle, financing risk, M&A]
+tags: [Paramount Skydance, Warner Bros. Discovery, Ellison, Oracle, equity syndication, financing risk, M&A]
 ---
 
-With the state settlement before the court, the legal path to closing is narrower than it has been since July. That shifts attention to a question the litigation kept in the background: when the closing arrives, does the money show up on the terms promised?
+**Correction, September 26, 2026:** An earlier version of this post described a $45.7 billion equity commitment from the Ellison Trust without disclosing that the commitment was syndicated in April 2026 to a group of institutional investors. Paramount's 10-Q filings put the Trust's commitment at up to $46.7 billion, and the syndication covers the full amount, with the Ellison guarantee remaining as a backstop. The post has been revised to reflect both.
+
+With the state settlement before the court, the path to closing is narrower than it has been since July. That shifts attention to a question the litigation kept in the background: when closing arrives, does the money show up on the terms promised?
 
 ## Just the facts
 
-**The financing package, per SEC filings:**
-- $57.5 billion debt commitment from Bank of America Merrill Lynch, Citi, and Apollo; Paramount later disclosed plans to replace a reduced $49 billion bridge with approximately $39.5 billion of first-lien and $12.4 billion of second-lien secured debt
-- $45.7 billion equity commitment from the Ellison Trust, personally guaranteed by Larry Ellison (increased from the $40.4 billion guarantee offered in December 2025)
-- The guarantee includes an obligation to contribute additional equity to the extent needed to support the solvency certificate required by Paramount's lending banks
-- Paramount is issuing $47 billion of new Class B shares at $16.02 per share to the Ellison Family and RedBird Capital Partners
+**Equity, per Paramount's 10-Q filings:**
+- Subscription agreements provide for up to $46.7 billion from the Ellison Trust and $250 million from RedBird in new Class B shares, subject to increase if Ticking Consideration or certain other amounts become payable under the merger agreement
+- In April 2026, the Trust and RedBird assigned their subscription rights to Equity Syndication Parties: affiliates of the Ellisons and RedBird, Saudi Arabia's Public Investment Fund, L'Imad (an Abu Dhabi sovereign wealth vehicle), QIA TMT Holding (Qatar Investment Authority), and LionTree Investment Fund. The allocations cover the full committed amount.
+- The syndication does not relieve the Trust or RedBird of their commitments. If any Syndication Party fails to fund, the Trust and RedBird must fund that amount, backed by Larry Ellison's personal guarantee, which remains in full force on its original terms.
+- The guarantee includes an obligation to contribute additional equity if needed to support the solvency certificate required by Paramount's lenders
+- Syndication Parties pay the 20-day VWAP before closing, between $12.00 and $16.02 per share
+
+**Debt:**
+- Committed debt financing of $54 billion, including a $49 billion 364-day senior secured bridge facility, per Paramount's second-quarter 10-Q
+- On or about September 24, 2026, Paramount launched syndication of a $7.5 billion incremental term loan B and said it intends to raise about $44.4 billion of additional secured debt, per Variety
 
 **The collateral behind the guarantee:**
-- Per a SEC solicitation filing from early 2026, the Ellison Trust holds approximately 1.16 billion Oracle shares, and roughly 30% of them were pledged as collateral for personal loans
-- The same filing states the Trust has never defaulted on a prior financial obligation or guarantee
+- Per a SEC solicitation filing from early 2026, the Ellison Trust held roughly 1.16 billion Oracle shares, about 30% pledged as collateral for personal loans
 
 **Oracle since September 2025:**
-- Peak of $345.72 on September 10, 2025
-- Worst month since 1990 in June 2026; intraday low of $114.50 on July 28, 2026
-- Recovery to roughly $155 by early September 2026
-- A five-session decline through September 15, 2026 totaling 13.6%, amid concern that frontier AI labs could slow spending
-- Fiscal 2027 capital expenditure guidance of up to $95 billion, against $55.7 billion in fiscal 2026
-- Plans to raise roughly $40 billion in fiscal 2027, including a $20 billion equity sale
-- Oracle's credit default swap spread reached a record high on August 4, 2026, per Bloomberg reporting cited by Forbes
-- Forbes estimated Larry Ellison's net worth at $195.8 billion in mid-September 2026, down from $378 billion a year earlier
+- Peak of $345.72 in September 2025; intraday low of $114.50 on July 28, 2026
+- September 11, 2026: a filing disclosed Larry Ellison had adopted a plan on June 22 to sell up to 50 million Oracle shares, about $7.5 billion. He canceled it the next day. No shares were sold, and Oracle gave no reason.
+- September 15, 2026: fifth straight losing session, down 13.6% over that stretch
+- September 24, 2026: Oracle issued a force majeure notice on its Project Jupiter data center; shares fell about 3.5%
+- September 25, 2026: closed at $137.10, about 60% below the peak
 
 ## Sources
 
-1. [Warner Bros. Discovery, Inc. Form SC TO-T/A, financing terms](https://www.sec.gov/Archives/edgar/data/1437107/000110465926020849/tm2533570d73_exa5an.htm)
-
-2. [Warner Bros. Discovery, Inc. SEC solicitation filing (Form PX14A6G), early 2026](https://www.sec.gov/Archives/edgar/data/1437107/000092189526000290/ex1topx14a6g06470065_021126.pdf)
-
-3. [Paramount Skydance press release, February 27, 2026, via SEC](https://www.sec.gov/Archives/edgar/data/1437107/000110465926021914/tm2533570d75_ex99-1.htm)
-
-4. [Yahoo Finance: 'Larry Ellison Was Once the World's Richest Man,' July 15, 2026](https://finance.yahoo.com/markets/stocks/articles/larry-ellison-once-world-richest-130422731.html)
-
-5. [Forbes: 'Larry Ellison's Net Worth Jumps Back Above $200 Billion,' September 3, 2026](https://www.forbes.com/sites/zacharyfolk/2026/09/03/larry-ellison-passes-jensen-huang-for-8th-richest-as-oracle-shares-soar/)
-
-6. [Forbes: 'Oracle Stock Is One To Avoid In The Last Half Of 2026,' September 2026](https://www.forbes.com/sites/investor-hub/article/oracle-stock-last-half-2026/)
-
-7. [DatacenterDynamics: 'Oracle to raise up to $50bn in debt and equity in 2026,' September 2026](https://www.datacenterdynamics.com/en/news/oracle-to-raise-up-to-50bn-in-debt-and-equity-in-2026/)
+1. [Paramount Skydance Form 10-Q, quarter ended March 31, 2026](https://www.sec.gov/Archives/edgar/data/0002041610/000204161026000026/psky-20260331.htm)
+2. [Paramount Skydance Form 10-Q, quarter ended June 30, 2026](https://www.sec.gov/Archives/edgar/data/0002041610/000204161026000054/psky-20260630.htm)
+3. [Paramount Skydance 8-K exhibit describing the Equity Syndication and warrants](https://www.sec.gov/Archives/edgar/data/0002041610/000110465926063952/tm2610616d3_ex99-2.htm)
+4. [WBD Form SC TO-T/A, financing terms including the solvency certificate obligation](https://www.sec.gov/Archives/edgar/data/1437107/000110465926020849/tm2533570d73_exa5an.htm)
+5. [SEC solicitation filing (Form PX14A6G), early 2026](https://www.sec.gov/Archives/edgar/data/1437107/000092189526000290/ex1topx14a6g06470065_021126.pdf)
+6. [Variety: 'Paramount to Raise $7.5 Billion More in Debt to Fund Warner Bros. Deal,' September 2026](https://variety.com/2026/film/news/paramount-7-5-billion-more-debt-warner-bros-merger-1236874269/)
+7. [Bloomberg: 'Larry Ellison Ends Plan to Sell Up to $7.5 Billion in Oracle Stock,' September 12, 2026](https://www.bloomberg.com/news/articles/2026-09-12/larry-ellison-scraps-plan-to-sell-up-to-50-million-oracle-shares)
 
 ## Ted's Takes
 
-The guarantee has not changed. The asset behind it fell roughly two thirds from peak to trough and has partly recovered, and almost all of Ellison's balance sheet is that one stock. A guarantor's strength is not fixed at signing; it is measured again on the day the money has to move.
+The syndication changes where the Oracle risk sits. Sovereign funds and institutional investors have taken the full equity allocation, so Ellison's balance sheet is no longer the first dollar in. It is the backstop: if any syndication party fails to fund, if the lenders' solvency certificate needs more equity, or if ticking consideration grows the commitment, the Trust is on the hook, and the Trust is mostly Oracle stock.
 
-The clause to watch is the solvency certificate. At closing, the lending banks need comfort that the combined company is solvent, and Ellison is obligated to add equity if that comfort requires it. That is where Oracle's price stops being a headline and becomes a closing condition in practice. None of this says the deal fails. It says the financing leg deserves the same attention the courtroom has received, because the tender and exchange offers settle on the same closing.
+That is a narrower risk than "Oracle funds the deal," but it is not a small one. Backstops get tested exactly when something else has gone wrong, and Oracle has spent the last month showing how fast its value can move. The question for closing is not whether the Ellisons can write a $46.7 billion check. It is whether every party in front of them funds on time, so they never have to.
 
 ---
 
 **What to watch:**
-- Court ruling on the consent decree and the resulting closing date
-- Oracle's share price and credit spreads into the closing window
-- Any amendment or supplement to the financing disclosures ahead of closing
+- Court ruling on the proposed consent decree and the resulting closing date
+- Funding by each Equity Syndication Party at closing
+- Delivery of the lenders' solvency certificate
+- Oracle's share price into the closing window
